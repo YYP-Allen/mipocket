@@ -45,15 +45,15 @@
       this.output += input;
     }
     remove() {
-      const l1: number = this.output.length
+      const l1: number = this.output.length;
       if (l1 === 1) {
-        this.output = '0'
+        this.output = '0';
       } else {
-        this.output = this.output.substring(0, l1 -1)
+        this.output = this.output.substring(0, l1 -1);
       }
     }
     clear() {
-      this.output = '0'
+      this.output = '0';
     }
     ok() {
 
