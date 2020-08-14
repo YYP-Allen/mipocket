@@ -4,7 +4,7 @@
       <span class="name" >备注:</span>
       <input type="text"
              v-model="value"
-             placeholder="写点备注吧~">
+             placeholder="~写点备注吧~">
     </label>
   </div>
 </template>
